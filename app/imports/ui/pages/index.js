@@ -21,3 +21,6 @@ import './plant-map.js';
 
 import './faq.html';
 import './faq.js';
+
+import './user-profile.html';
+import './user-profile.js';

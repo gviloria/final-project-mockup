@@ -4,7 +4,7 @@
     <div class="ui container">
       <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Botaniary</h1></a>
       {{#if currentUser}}
-      <a class="item">My Profile</a>
+      <a class="{{ isActiveRoute 'User_Profile_Page'}} item" href="{{ pathFor 'User_Profile_Page' }}">My Profile</a>
       <a class="{{ isActiveRoute 'Plant_Index_Page'}} item" href="{{ pathFor 'Plant_Index_Page' }}">Plant Index</a>
       <a class="{{ isActiveRoute 'Plant_Map_Page'}} item" href="{{ pathFor 'Plant_Map_Page' }}">UH Plant Map</a>
       <a class="{{ isActiveRoute 'Add_Plant_Page'}} item" href="{{ pathFor 'Add_Plant_Page' }}">Add Plant</a>
