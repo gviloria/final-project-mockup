@@ -9,7 +9,7 @@
       <a class="{{ isActiveRoute 'Plant_Map_Page'}} item" href="{{ pathFor 'Plant_Map_Page' }}">UH Plant Map</a>
       <a class="{{ isActiveRoute 'Add_Plant_Page'}} item" href="{{ pathFor 'Add_Plant_Page' }}">Add Plant</a>
       <a class="item">Whats This Plant?</a>
-      <a class="item">FAQ</a>
+      <a class="{{ isActiveRoute 'Questions_Page'}} item" href="{{ pathFor 'Questions_Page' }}">FAQ</a>
       {{/if}}
       <a href="#" class="item">{{> loginButtons }} </a>
     </div>

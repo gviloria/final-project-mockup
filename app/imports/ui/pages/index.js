@@ -17,3 +17,7 @@ import './plant-index.html';
 import './plant-index.js';
 
 import './plant-map.html';
+import './plant-map.js';
+
+import './faq.html';
+import './faq.js';

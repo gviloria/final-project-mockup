@@ -15,6 +15,13 @@ FlowRouter.route('/list', {
   },
 });
 
+FlowRouter.route('/faq', {
+  name: 'Questions_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Questions_Page' });
+  },
+});
+
 FlowRouter.route('/plant-map', {
   name: 'Plant_Map_Page',
   action() {
