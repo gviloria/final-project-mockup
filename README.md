@@ -4,6 +4,9 @@
 # User Home Page
 <img class="ui medium right floated rounded image" src="doc/User_Home_Page.png">
 
+# User Profile Page
+<img class="ui medium right floated rounded image" src="doc/User_Profile_Page.png">
+
 # Plant Index Page
 <img class="ui medium right floated rounded image" src="doc/Plant_Index_Page.png">
 
