@@ -1,0 +1,30 @@
+<template name="Add_Plant_Page">
+  <div style="margin-top: 20px" class="ui container">
+    <form class="ui form plant-data-form {{ errorClass }}">
+      <h4 class="ui dividing header">Add Plant</h4>
+
+      <div class="field">
+        <label>Plant Name</label>
+        <div class="field">
+          <input type="text" name="name" id="name" placeholder="Plant Name">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Location</label>
+        <div class="field">
+          <input type="text" name="location" id="location" placeholder="Location">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Description</label>
+        <div class="field">
+          <input type="text" name="description" id="description" placeholder="Enter Details">
+        </div>
+      </div>
+
+      <button class="ui button" type="submit">Submit</button>
+    </form>
+  </div>
+</template>

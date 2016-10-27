@@ -1,0 +1,29 @@
+<template name="Plant_Index_Page">
+  <div class="ui container">
+
+    {{#if Template.subscriptionsReady}}
+    <table style="margin-top: 20px" class="ui celled table">
+      <thead>
+      <tr>
+        <th>Plant Name</th>
+        <th>Location</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      {{#each plant in plantsList}}
+      <tr>
+        <td>{{plant.name}}</td>
+        <td>{{plant.location}}</td>
+        <td>{{plant.description}}</td>
+      </tr>
+      {{/each}}
+      </tbody>
+    </table>
+    {{else}}
+    {{> Loading}}
+    {{/if}}
+
+  </div>
+</template>
