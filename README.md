@@ -12,3 +12,6 @@
 
 # Plant Map Page
 <img class="ui medium right floated rounded image" src="doc/Plant_Map_Page.png">
+
+# Frequently Asked Questions Page
+<img class="ui medium right floated rounded image" src="doc/FAQS_Page.png">
